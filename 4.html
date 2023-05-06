@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Website</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body {
+                margin: 0;
+                font-family: Arial, sans-serif;
+                background-color: #f5f5f5;
+                color: #333;
+            }
+            
+            header {
+                background-color: #333;
+                color: #fff;
+                padding: 10px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+            
+            header h1 {
+                margin: 0;
+            }
+            
+            header nav {
+                display: none;
+            }
+            
+            header button {
+                background-color: #fff;
+                color: #333;
+                border: none;
+                padding: 10px;
+                border-radius: 5px;
+                font-size: 18px;
+                cursor: pointer;
+            }
+            
+            header button:hover {
+                background-color: #ddd;
+            }
+            
+            main {
+                display: flex;
+                flex-direction: column;
+                flex-grow: 1;
+                padding: 10px;
+            }
+            
+            .sidebar {
+                flex-basis: 200px;
+                background-color: #f0f0f0;
+                padding: 10px;
+            }
+            
+            .sidebar h3 {
+                margin-top: 0;
+            }
+            
+            .sidebar ul {
+                list-style: none;
+                margin: 0;
+                padding: 0;
+            }
+            
+            .sidebar li {
+                margin-bottom: 10px;
+            }
+            
+            footer {
+                background-color: #333;
+                color: #fff;
+                padding: 20px;
+                text-align: center;
+            }
+            
+            footer p {
+                margin: 0;
+                font-size: 18px;
+            }
+            
+            @media screen and (min-width: 768px) {
+                header {
+                    justify-content: flex-start;
+                }
+                
+                header nav {
+                    display: flex;
+                }
+                
+                header button {
+                    display: none;
+                }
+                
+                main {
+                    flex-direction: row;
+                }
+                
+                .sidebar {
+                    flex-basis: 25%;
+                }
+            }
+            
+            @media screen and (min-width: 1024px) {
+                header, footer {
+                    padding: 40px;
+                }
+                
+                header h1 {
+                    font-size: 40px;
+                }
+                
+                header nav {
+                    flex-grow: 1;
+                    justify-content: flex-end;
+                }
+                
+                header ul {
+                    display: flex;
+                    list-style: none;
+                    margin: 0;
+                    padding: 0;
+                }
+                
+                header li {
+                    margin-left: 20px;
+                }
+                
+                header a {
+                    color: #fff;
+                    text-decoration: none;
+                    font-size: 18px;
+                }
+                
+                header a:hover {
+                    text-decoration: underline;
+                }
+                
+                main {
+                    padding: 40px;
+                }
+                
+                .sidebar h3 {
+                    font-size: 24px;
+                }
+                
+                .sidebar li {
+                    margin-bottom: 20px;
+                }
+                
+                footer p {
+                    font-size: 24px;
+                }
+            }
+        </style>
+    </head>
+    
+<body>
+	<header>
+		<h1>Technology page</h1>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section>
+			<h2>Apple products</h2>
+			<p> Apple Inc. (formerly Apple Computer Inc.) is an American computer and consumer electronics 
+                company famous for creating the iPhone, iPad and Macintosh computers. 
+                Apple is one of the largest companies globally with a market cap of over 2 trillion dollars.
+
+            </p>
+
+            <p>
+                Apple devices are renowned for their design aesthetic and attention to detail. 
+                Tight integration between hardware and software gives their 
+                systems a performance advantage over competitor systems with similar specifications.
+
+
+            </p>
+
+            <p>
+                Apple rose to its position as a market leader by correctly positioning its products. 
+                They didn't invent personal computers, graphical user interfaces (GUIs), mp3 players, 
+                smartphones, smartwatches or tablets. Instead, they produced some of the first versions 
+                of these products that were refined, easy to use and well-designed, which led to wide market adoption.
+
+
+            </p>
+
+            <h2>
+                Apple product lines
+
+            </h2>
+            <picture>
+                <img src="1.jpeg" width="500px" height="300px">
+            </picture>
+            <p>
+                Apple offers numerous products and services. A few of its major offerings today include:
+            </p>
+            <p>
+                Mac computer. The Macintosh, or Mac, is Apple's line of personal computers. 
+                Its main product types are the iMac all-in-one desktop, Mac mini standard desktop, 
+                Mac Studio media-focused desktop, Mac Pro professional production workstation desktop, 
+                MacBook Air consumer laptop and MacBook Pro professional laptop.
+            </p>
+            <img src="2.jpeg" width="500px" height="300px">
+            <p>
+                All Mac computers use the macOS operating system. Since 2020, 
+                they use the "M" series CPUs designed by Apple based on ARM architecture. 
+                These chips have been praised for their excellent performance and power efficiency. 
+                Mac computers are popular with students and creative professionals for their elevated 
+                style and ease of use. Computer programmers might also use them because the underlying 
+                operating system is based on Unix and is POSIX compatible. Due to the lack of built-in 
+                central management and high cost, Mac computers have historically been unpopular in the workplace. 
+                Still, the introduction of Zero Trust, BYOD and third-party tools such as Jamf have begun to make 
+                them more acceptable to IT administrators.
+            </p>
+
+            <p>
+                iPhone and iPad. The iPhone is Apple's smartphone line, and the iPad is its tablet. 
+                The iPhone was the first smartphone to receive mass market adoption due to its ease of use, 
+                built-in app store and capacitive multitouch touchscreen. The iPhone uses the "A" series mobile CPU, 
+                and recent iPads use the same "M" series CPUs as Mac computers. Their operating systems iOS and iPadOS, 
+                are based on the same Unix kernel as macOS but have a touch-focused interface.
+
+
+            </p>
+
+            <p>
+                Consumer products. Apple has several smaller product 
+                lines that integrate with its overall ecosystem. The Apple Watch 
+                is a smartwatch and fitness tracker. Apple TV is a television set-top 
+                box and streaming media device. HomePod is a smart speaker and home assistant.
+
+
+            </p>
+
+            <p>
+                Services. Apple also provides several services that 
+                seamlessly work with its products. Apple iCloud is a 
+                personal file storage and synchronization service. Apple Pay 
+                is a money payment system and a credit card provider. Apple TV+ 
+                is a media streaming service with movies and TV programming. 
+                Apple also provides other media under the iTunes store, Apple Music, 
+                Apple Books and other services. IMessage is an Apple device-specific 
+                instant messaging service that extends SMS for iPhones.
+
+
+            </p>
+
+            <img src="3.jpeg" width="500px" height="300px">
+
+            <h6>For more information reach this email: <a href="mailto:ieltsnj@gmail.com">Nurbolat</a></h6>
+
+		</section>
+		<aside class="sidebar">
+			<h3>Categories</h3>
+			<ul>
+				<li><a href="#">Category 1</a></li>
+				<li><a href="#">Category 2</a></li>
+				<li><a href="#">Category 3</a></li>
+			</ul>
+		</aside>
+	</main>
+	<footer>
+		<p>by Nurbolat 2023</p>
+	</footer>
+</body>
+</html>

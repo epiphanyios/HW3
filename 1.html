@@ -1,0 +1,51 @@
+<!DOCTYPE html> <!--using inline css-->
+<html>
+    <head>
+        <title>Registration page</title>
+    </head>
+
+    <body>
+        <form action="2.html" method="post" > 
+            <label for="email" style="color:blue; font-weight:bold;">Enter your email:</label>
+            <input type="email" id="email" name="email" style="padding:5px; border-radius: 5px;" required> <br> <br>
+            <label for="pwd" style="font-weight:bold;">Password:</label>
+            <input type="password" id="pwd" name="pwd" style="padding:5px; border-radius: 5px;" required> <br>
+            <p>Username: <input type="text" name="username" style="padding:5px; border-radius: 5px;" required> </p>
+            <p>Name: <input type="text" name="name" style="padding:5px; border-radius: 5px;" required> </p>
+            <p>Surname: <input type="text" name="surname" style="padding:5px; border-radius: 5px;" required> </p>
+            
+            <p style="font-weight:bold;">Course:</p>
+            <select required style="padding:5px; border-radius: 5px;">
+                <option>English</option>
+                <option>Computer Science</option>
+                <option>Interior Design</option>
+                <option>Architecture</option>
+            </select>
+            <br> <br>
+            <label style="font-weight:bold;">Gender:</label> <br>
+            <input type="radio" name="gender" value="male" required> Male <br>
+            <input type="radio" name="gender" value="female" required> Female <br> <br>
+            
+           
+            <label for="birthday" style="font-weight:bold;">Birthday:</label>
+            <input type="date" id="birthday" name="birthday" style="padding:5px; border-radius: 5px;"> <br> <br>
+
+            <label style="font-weight:bold;">Interests:</label> <br>
+            <input type="checkbox" id="user_interest1" name="interests[]" value="music"><label for="user_interest1">Music</label> <br>
+            <input type="checkbox" id="user_interest2" name="interests[]" value="programming"><label for="user_interest2">Programming</label> <br>
+            <input type="checkbox" id="user_interest3" name="interests[]" value="art"><label for="user_interest3">Art</label> <br> <br>
+
+            <label for="phone" style="font-weight:bold;">Enter your phone number:</label>
+            <input type="tel" id="phone" name="phone" style="padding:5px; border-radius: 5px;" placeholder="87771234567" pattern="[0-9]{11}" required><br><br>
+            
+            
+            <input type="submit" value="Sign up" style="padding:10px; background-color: #4CAF50; color: white; border-radius: 5px;">
+         
+        </form>
+      
+    </body>
+
+
+
+
+</html>
